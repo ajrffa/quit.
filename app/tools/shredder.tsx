@@ -9,7 +9,7 @@ import * as Haptics from 'expo-haptics';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import Animated, {
     useSharedValue, useAnimatedStyle, withTiming, withSpring,
-    runOnJS, withSequence, withDelay, FadeIn, FadeOut
+    runOnJS, withSequence, withDelay
 } from 'react-native-reanimated';
 import { Canvas, Circle, Rect, RoundedRect } from '@shopify/react-native-skia';
 import { interpolate } from 'react-native-reanimated';

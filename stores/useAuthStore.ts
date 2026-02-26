@@ -3,7 +3,7 @@ import { supabase } from '../services/supabase';
 import { Session, User, AuthError } from '@supabase/supabase-js';
 import { logger } from '../utils/logger';
 
-// ── Türkçe Hata Mesajları ────────────────────────────────────────────────
+// ── Auth Error Messages ────────────────────────────────────────────────
 const AUTH_ERROR_MAP: Record<string, string> = {
     'Invalid login credentials': 'Invalid email or password',
     'Email not confirmed': 'You need to confirm your email before logging in',

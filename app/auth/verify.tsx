@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, TextInput, Pressable, KeyboardAvoidingView, Platform, ActivityIndicator, ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
@@ -17,12 +17,13 @@ export default function VerifyScreen() {
     const [localError, setLocalError] = useState<string | null>(null);
 
     // If there's no pending email (user navigated here directly), send them back
-    if (!pendingEmail) {
-        if (typeof window !== 'undefined') {
-            setTimeout(() => router.replace('/auth/register'), 0);
+    useEffect(() => {
+        if (!pendingEmail) {
+            router.replace('/auth/register');
         }
-        return null;
-    }
+    }, [pendingEmail]);
+
+    if (!pendingEmail) return null;
 
     const canSubmit = otp.length === 6;
 

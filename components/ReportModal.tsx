@@ -8,11 +8,11 @@ import React, { useState } from 'react';
 import {
     StyleSheet, Text, View, Pressable, Modal, ActivityIndicator,
 } from 'react-native';
-import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '../constants/Theme';
+import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '@/constants/Theme';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import * as Haptics from 'expo-haptics';
 import Animated, { FadeIn, SlideInUp } from 'react-native-reanimated';
-import { blockUser, reportContent, REPORT_REASONS, ReportReason } from '../services/moderationService';
+import { blockUser, reportContent, REPORT_REASONS, ReportReason } from '@/services/moderationService';
 
 const FF = FontFamily.sans;
 

@@ -1,8 +1,8 @@
 import React, { useRef, useEffect } from 'react';
 import { StyleSheet, Text, View, ScrollView, Pressable, KeyboardAvoidingView, Platform, TextInput } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Colors, Spacing, BorderRadius, FontSize, FontFamily, FontWeight } from '../constants/Theme';
-import { useHabitStore } from '../stores/useHabitStore';
+import { Colors, Spacing, BorderRadius, FontSize, FontFamily, FontWeight } from '@/constants/Theme';
+import { useHabitStore } from '@/stores/useHabitStore';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import * as Haptics from 'expo-haptics';
 import Animated, { SlideInRight, FadeIn, FadeInDown } from 'react-native-reanimated';

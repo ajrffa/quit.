@@ -1,7 +1,7 @@
 import { createClient } from '@supabase/supabase-js';
 import * as SecureStore from 'expo-secure-store';
 import { Platform } from 'react-native';
-import { logger } from '../utils/logger';
+import { logger } from '@/utils/logger';
 
 // ── Güvenli Depolama Adaptörü (Supabase Auth tokenları için) ────────────────
 const ExpoSecureStoreAdapter = {

@@ -4,8 +4,8 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
-import { Colors, Spacing, FontSize, FontWeight, FontFamily } from '../constants/Theme';
-import { useHabitStore } from '../stores/useHabitStore';
+import { Colors, Spacing, FontSize, FontWeight, FontFamily } from '@/constants/Theme';
+import { useHabitStore } from '@/stores/useHabitStore';
 import * as Haptics from 'expo-haptics';
 import Animated, {
     FadeIn, FadeInDown, FadeInUp, ZoomIn,

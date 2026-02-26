@@ -1,7 +1,7 @@
 import { create } from 'zustand';
-import { supabase } from '../services/supabase';
+import { supabase } from '@/services/supabase';
 import { Session, User, AuthError } from '@supabase/supabase-js';
-import { logger } from '../utils/logger';
+import { logger } from '@/utils/logger';
 
 // ── Auth Error Messages ────────────────────────────────────────────────
 const AUTH_ERROR_MAP: Record<string, string> = {

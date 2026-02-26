@@ -1,4 +1,4 @@
-import { HabitType } from '../stores/useHabitStore';
+import { HabitType } from '@/stores/useHabitStore';
 
 // ── Badge System ───────────────────────────────────────────────────────────
 export type BadgeLevel = 'rookie' | 'resister' | 'warrior' | 'mentor' | 'master';

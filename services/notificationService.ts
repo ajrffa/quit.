@@ -5,7 +5,7 @@
  */
 
 import * as Notifications from 'expo-notifications';
-import { HabitType } from '@/stores/useHabitStore';
+import { HabitType } from '../stores/useHabitStore';
 
 // ── _layout.tsx uyumluluk shimları ──────────────────────────────────────────
 export async function registerForPushNotifications(): Promise<void> {

@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { StyleSheet, Text, View, Pressable, ScrollView, Dimensions } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Colors, Spacing, FontSize, FontFamily, BorderRadius } from '@/constants/Theme';
+import { Colors, Spacing, FontSize, FontFamily, BorderRadius } from '../../constants/Theme';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import * as Haptics from 'expo-haptics';
 import { useRouter } from 'expo-router';

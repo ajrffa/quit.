@@ -4,7 +4,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
-import { Colors, FontFamily, FontSize, Spacing, BorderRadius } from '@/constants/Theme';
+import { Colors, FontFamily, FontSize, Spacing, BorderRadius } from '../../constants/Theme';
 import * as Haptics from 'expo-haptics';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import Animated, {

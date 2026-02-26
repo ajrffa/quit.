@@ -1,4 +1,4 @@
-import { logger } from '@/utils/logger';
+import { logger } from '../utils/logger';
 import { createClient } from '@supabase/supabase-js';
 
 const supabaseUrl = process.env.EXPO_PUBLIC_SUPABASE_URL!;

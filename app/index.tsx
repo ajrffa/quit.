@@ -1,8 +1,8 @@
 import { View, ActivityIndicator } from 'react-native';
 import { Redirect } from 'expo-router';
-import { useHabitStore } from '@/stores/useHabitStore';
-import { useAuthStore } from '@/stores/useAuthStore';
-import { Colors } from '@/constants/Theme';
+import { useHabitStore } from '../stores/useHabitStore';
+import { useAuthStore } from '../stores/useAuthStore';
+import { Colors } from '../constants/Theme';
 
 export default function AppGatekeeper() {
     const _hasHydrated = useHabitStore(s => s._hasHydrated);

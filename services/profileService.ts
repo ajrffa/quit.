@@ -1,5 +1,5 @@
 import { supabase } from './supabase';
-import { logger } from '@/utils/logger';
+import { logger } from '../utils/logger';
 
 // ── Profile Sync: Keep Supabase profile in sync with local store ──────────
 

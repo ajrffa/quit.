@@ -4,9 +4,9 @@ import {
     TextInput, Modal, Dimensions, Platform, KeyboardAvoidingView,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '@/constants/Theme';
-import { useHabitStore, HabitType } from '@/stores/useHabitStore';
-import { useAuthStore } from '@/stores/useAuthStore';
+import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '../../constants/Theme';
+import { useHabitStore, HabitType } from '../../stores/useHabitStore';
+import { useAuthStore } from '../../stores/useAuthStore';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import * as Haptics from 'expo-haptics';
 import { useRouter } from 'expo-router';
@@ -14,9 +14,9 @@ import Animated, { FadeInDown, FadeIn, FadeInUp } from 'react-native-reanimated'
 import {
     CommunityPost, BADGE_CONFIG, HABIT_CHANNELS, getBadgeForStreak,
     canComment, canPost, canPostWisdom, BadgeLevel,
-} from '@/types/community';
-import { fetchPosts, createPost, toggleLike } from '@/services/communityService';
-import ReportModal from '@/components/ReportModal';
+} from '../../types/community';
+import { fetchPosts, createPost, toggleLike } from '../../services/communityService';
+import ReportModal from '../../components/ReportModal';
 
 
 const FF = FontFamily.sans;

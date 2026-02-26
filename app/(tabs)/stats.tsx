@@ -1,8 +1,8 @@
 import React, { useMemo, useEffect, useRef } from 'react';
 import { StyleSheet, Text, View, ScrollView, Dimensions, Animated as RNAnimated } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '@/constants/Theme';
-import { useHabitStore, HabitType } from '@/stores/useHabitStore';
+import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '../../constants/Theme';
+import { useHabitStore, HabitType } from '../../stores/useHabitStore';
 import { subDays, isSameDay, differenceInHours } from 'date-fns';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import Animated, { FadeInDown, FadeIn } from 'react-native-reanimated';

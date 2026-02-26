@@ -1,5 +1,5 @@
 import { supabase } from './supabase';
-import { useAuthStore } from '@/stores/useAuthStore';
+import { useAuthStore } from '../stores/useAuthStore';
 
 export async function callAiCoach(message: string, habitType: string, streak: number, userName: string): Promise<string> {
     const session = useAuthStore.getState().session;

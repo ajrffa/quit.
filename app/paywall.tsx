@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, Pressable, ScrollView, Dimensions } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
-import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '@/constants/Theme';
+import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '../constants/Theme';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import Animated, { FadeInUp, FadeIn, FadeInDown } from 'react-native-reanimated';
-import { useHabitStore } from '@/stores/useHabitStore';
+import { useHabitStore } from '../stores/useHabitStore';
 import * as Haptics from 'expo-haptics';
 import { Alert } from 'react-native';
 

@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, ScrollView, Pressable, Dimensions } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '@/constants/Theme';
-import { useHabitStore, CopingStrategy } from '@/stores/useHabitStore';
+import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '../../constants/Theme';
+import { useHabitStore, CopingStrategy } from '../../stores/useHabitStore';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import * as Haptics from 'expo-haptics';
 import Animated, { FadeInUp, FadeIn } from 'react-native-reanimated';
 import { useRouter } from 'expo-router';
 // We will create StrategyModal in a moment
-import { StrategyModal } from '@/components/ui/StrategyModal';
-import { AddStrategyModal } from '@/components/ui/AddStrategyModal';
+import { StrategyModal } from '../../components/ui/StrategyModal';
+import { AddStrategyModal } from '../../components/ui/AddStrategyModal';
 
 const FF = FontFamily.sans;
 const { width } = Dimensions.get('window');

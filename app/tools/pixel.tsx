@@ -2,7 +2,7 @@ import React, { useState, useCallback, useMemo, useRef } from 'react';
 import { StyleSheet, Text, View, Pressable, Dimensions, PanResponder } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
-import { Colors, Spacing, FontSize, FontFamily, BorderRadius } from '@/constants/Theme';
+import { Colors, Spacing, FontSize, FontFamily, BorderRadius } from '../../constants/Theme';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import * as Haptics from 'expo-haptics';
 import Animated, { FadeIn, FadeOut, Easing, withTiming, useSharedValue, useAnimatedStyle } from 'react-native-reanimated';

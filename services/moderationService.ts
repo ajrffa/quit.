@@ -5,7 +5,7 @@
  */
 
 import { supabase } from './supabase';
-import { logger } from '@/utils/logger';
+import { logger } from '../utils/logger';
 
 // ── Yapılandırma ──────────────────────────────────────────────────────────
 const USE_SUPABASE = true;

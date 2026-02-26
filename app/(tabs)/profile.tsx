@@ -1,14 +1,14 @@
 import React from 'react';
 import { StyleSheet, Text, View, Pressable, ScrollView, Switch, Alert, Platform } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '@/constants/Theme';
-import { useHabitStore, getXPForLevel } from '@/stores/useHabitStore';
-import { useAuthStore } from '@/stores/useAuthStore';
+import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '../../constants/Theme';
+import { useHabitStore, getXPForLevel } from '../../stores/useHabitStore';
+import { useAuthStore } from '../../stores/useAuthStore';
 import { useRouter } from 'expo-router';
 import * as Haptics from 'expo-haptics';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import Animated, { FadeInDown, FadeIn, FadeInUp } from 'react-native-reanimated';
-import { BADGE_CONFIG, getBadgeForStreak } from '@/types/community';
+import { BADGE_CONFIG, getBadgeForStreak } from '../../types/community';
 
 const FF = FontFamily.sans;
 const IS_DEV = __DEV__; // In production builds this is automatically false

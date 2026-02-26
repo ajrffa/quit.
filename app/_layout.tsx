@@ -3,15 +3,15 @@ import { DarkTheme, ThemeProvider } from '@react-navigation/native';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 
-import { Colors } from '@/constants/Theme';
-import { useAuthStore } from '@/stores/useAuthStore';
+import { Colors } from '../constants/Theme';
+import { useAuthStore } from '../stores/useAuthStore';
 import {
   registerForPushNotifications,
   scheduleStreakReminder,
   addNotificationResponseListener,
-} from '@/services/notificationService';
-import { logger } from '@/utils/logger';
-import { AppLockOverlay } from '@/components/ui/AppLockOverlay';
+} from '../services/notificationService';
+import { logger } from '../utils/logger';
+import { AppLockOverlay } from '../components/ui/AppLockOverlay';
 import { Platform } from 'react-native';
 
 import { useEffect } from 'react';

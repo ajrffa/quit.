@@ -1,10 +1,10 @@
 import { supabase } from './supabase';
-import { CommunityPost, PostReply, getBadgeForStreak, BadgeLevel } from '@/types/community';
-import { HabitType } from '@/stores/useHabitStore';
-import { validatePostContent, validateReplyContent, checkRateLimit } from '@/utils/sanitize';
-import { filterContent, getFilterWarning } from '@/utils/contentFilter';
+import { CommunityPost, PostReply, getBadgeForStreak, BadgeLevel } from '../types/community';
+import { HabitType } from '../stores/useHabitStore';
+import { validatePostContent, validateReplyContent, checkRateLimit } from '../utils/sanitize';
+import { filterContent, getFilterWarning } from '../utils/contentFilter';
 import { getBlockedUserIds } from './moderationService';
-import { logger } from '@/utils/logger';
+import { logger } from '../utils/logger';
 
 // ── Configuration ──────────────────────────────────────────────────────────
 // Set to true once Supabase tables are created via migration.sql

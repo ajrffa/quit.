@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react';
 import { StyleSheet, Text, View, ScrollView, Pressable, Dimensions, Modal } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
-import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '@/constants/Theme';
-import { useHabitStore } from '@/stores/useHabitStore';
+import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '../../constants/Theme';
+import { useHabitStore } from '../../stores/useHabitStore';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import * as Haptics from 'expo-haptics';
 import { Svg, Circle, Defs, LinearGradient as SvgLinearGradient, Stop } from 'react-native-svg';
 import Animated, { FadeInDown, FadeInUp, FadeIn, useSharedValue, withTiming, useAnimatedProps } from 'react-native-reanimated';
-import MilestoneModal from '@/components/MilestoneModal';
+import MilestoneModal from '../../components/MilestoneModal';
 
 const { width } = Dimensions.get('window');
 const ARC_SIZE = Math.min(width * 0.7, 300);

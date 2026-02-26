@@ -4,7 +4,7 @@ import * as AuthSession from 'expo-auth-session';
 import * as Crypto from 'expo-crypto';
 import * as WebBrowser from 'expo-web-browser';
 import { Platform } from 'react-native';
-import { logger } from '@/utils/logger';
+import { logger } from '../utils/logger';
 
 // ── Apple Sign-In ─────────────────────────────────────────────────────────
 export async function signInWithApple(): Promise<boolean> {

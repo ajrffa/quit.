@@ -1,8 +1,8 @@
 import { supabase } from './supabase';
-import { validateMessageContent, checkRateLimit } from '@/utils/sanitize';
-import { filterContent, getFilterWarning } from '@/utils/contentFilter';
+import { validateMessageContent, checkRateLimit } from '../utils/sanitize';
+import { filterContent, getFilterWarning } from '../utils/contentFilter';
 import { isBlocked } from './moderationService';
-import { logger } from '@/utils/logger';
+import { logger } from '../utils/logger';
 
 // ── Types ──────────────────────────────────────────────────────────────────
 export interface Conversation {

@@ -1,11 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View, Modal, Pressable } from 'react-native';
 import { BlurView } from 'expo-blur';
-import { Colors, Spacing, BorderRadius, FontSize, FontFamily, FontWeight } from '@/constants/Theme';
+import { Colors, Spacing, BorderRadius, FontSize, FontFamily, FontWeight } from '../../constants/Theme';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import * as Haptics from 'expo-haptics';
 import Animated, { FadeIn, FadeInDown, SlideOutDown, FadeOut } from 'react-native-reanimated';
-import { CopingStrategy, useHabitStore } from '@/stores/useHabitStore';
+import { CopingStrategy, useHabitStore } from '../../stores/useHabitStore';
 import { useRouter } from 'expo-router';
 
 interface StrategyModalProps {

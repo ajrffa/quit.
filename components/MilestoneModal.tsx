@@ -4,10 +4,10 @@ import {
     Animated as RNAnimated, Modal,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Colors, Spacing, FontSize, FontFamily, FontWeight } from '@/constants/Theme';
+import { Colors, Spacing, FontSize, FontFamily, FontWeight } from '../constants/Theme';
 import * as Haptics from 'expo-haptics';
 import Animated, { FadeIn, FadeInDown, FadeInUp, ZoomIn } from 'react-native-reanimated';
-import { HabitType } from '@/stores/useHabitStore';
+import { HabitType } from '../stores/useHabitStore';
 
 const { width, height } = Dimensions.get('window');
 const FF = FontFamily.sans;

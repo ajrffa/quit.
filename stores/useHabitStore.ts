@@ -1,9 +1,9 @@
 import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
-import { EncryptedStorage } from '@/utils/encryptedStorage';
-import { validateJournalEntry } from '@/utils/sanitize';
-import { filterContent } from '@/utils/contentFilter';
-import { callAiCoach } from '@/services/aiService';
+import { EncryptedStorage } from '../utils/encryptedStorage';
+import { validateJournalEntry } from '../utils/sanitize';
+import { filterContent } from '../utils/contentFilter';
+import { callAiCoach } from '../services/aiService';
 
 let idCounter = 0;
 const uniqueId = () => `${Date.now()}-${++idCounter}-${Math.random().toString(36).slice(2, 6)}`;

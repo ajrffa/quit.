@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Platform } from 'react-native';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { Tabs } from 'expo-router';
-import { Colors, FontFamily } from '@/constants/Theme';
+import { Colors, FontFamily } from '../../constants/Theme';
 import { BlurView } from 'expo-blur';
 import { Svg, Path, Circle } from 'react-native-svg';
 import Animated, { useSharedValue, useAnimatedStyle, withRepeat, withSequence, withTiming, Easing } from 'react-native-reanimated';

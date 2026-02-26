@@ -1,0 +1,136 @@
+﻿env: load .env
+env: export EXPO_PUBLIC_SUPABASE_URL EXPO_PUBLIC_SUPABASE_ANON_KEY EXPO_PUBLIC_RESEND_API_KEY
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\(tabs)\_layout.tsx
+   7:21  warning  'Circle' is defined but never used                                                                              @typescript-eslint/no-unused-vars
+  34:6   warning  React Hook React.useEffect has a missing dependency: 'scale'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\(tabs)\activities.tsx
+  8:30  warning  'FadeIn' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\(tabs)\community.tsx
+   13:50  warning  'SlideInRight' is defined but never used                                                                                                                                                       @typescript-eslint/no-unused-vars
+   21:9   warning  'width' is assigned a value but never used                                                                                                                                                     @typescript-eslint/no-unused-vars
+  160:5   error    React Hook "useEffect" is called conditionally. React Hooks must be called in the exact same order in every component render                                                                   react-hooks/rules-of-hooks
+  164:8   warning  React Hook useEffect has a missing dependency: 'activeHabit'. Either include it or remove the dependency array                                                                                 react-hooks/exhaustive-deps
+  166:23  error    React Hook "useCallback" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+  171:5   error    React Hook "useEffect" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?    react-hooks/rules-of-hooks
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\(tabs)\index.tsx
+   75:6   warning  React Hook useEffect has a missing dependency: 'activeHabit'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  230:11  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                 react/no-unescaped-entities
+  230:32  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                 react/no-unescaped-entities
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\(tabs)\profile.tsx
+  10:32  warning  'FadeIn' is defined but never used    @typescript-eslint/no-unused-vars
+  10:40  warning  'FadeInUp' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\_layout.tsx
+  75:6  warning  React Hook useEffect has a missing dependency: 'initialize'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\auth\register.tsx
+  18:13  warning  'signUp' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\auth\verify.tsx
+  121:62  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\chat.tsx
+   4:63   warning  'FontWeight' is defined but never used                           @typescript-eslint/no-unused-vars
+   9:10   warning  'BlurView' is defined but never used                             @typescript-eslint/no-unused-vars
+  53:144  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\dm\[conversationId].tsx
+  12:8   warning  'Animated' is defined but never used   @typescript-eslint/no-unused-vars
+  12:20  warning  'FadeIn' is defined but never used     @typescript-eslint/no-unused-vars
+  12:28  warning  'SlideInUp' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\dm\index.tsx
+  11:43  warning  'BadgeLevel' is defined but never used              @typescript-eslint/no-unused-vars
+  32:11  warning  'canReceiveDMs' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\index.tsx
+  10:13  warning  'session' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\legal\privacy.tsx
+  49:171  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  49:184  error  `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\onboarding\welcome.tsx
+  8:50  warning  'Layout' is defined but never used        @typescript-eslint/no-unused-vars
+  8:58  warning  'SlideInRight' is defined but never used  @typescript-eslint/no-unused-vars
+  8:72  warning  'SlideOutLeft' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\paywall.tsx
+  11:9  warning  'width' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\tools\breathe.tsx
+   66:8  warning  React Hook useEffect has missing dependencies: 'sounds.exhale', 'sounds.hold', and 'sounds.inhale'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  124:8  warning  React Hook useEffect has missing dependencies: 'blurAmount', 'radius', and 'rotation'. Either include them or remove the dependency array               react-hooks/exhaustive-deps
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\tools\bubble.tsx
+   4:27  warning  'FontSize' is defined but never used                                                                       @typescript-eslint/no-unused-vars
+   4:49  warning  'BorderRadius' is defined but never used                                                                   @typescript-eslint/no-unused-vars
+  11:9   warning  'width' is assigned a value but never used                                                                 @typescript-eslint/no-unused-vars
+  98:67  warning  React Hook useMemo has an unnecessary dependency: 'key'. Either exclude it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\tools\grid.tsx
+    7:54   warning  'useSharedValue' is defined but never used                       @typescript-eslint/no-unused-vars
+    7:70   warning  'useAnimatedStyle' is defined but never used                     @typescript-eslint/no-unused-vars
+    7:88   warning  'withTiming' is defined but never used                           @typescript-eslint/no-unused-vars
+    7:100  warning  'withSpring' is defined but never used                           @typescript-eslint/no-unused-vars
+  123:160  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\tools\journal.tsx
+  12:9  warning  'width' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\tools\mandala.tsx
+  1:27  warning  'useRef' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\tools\meditate.tsx
+   61:8   warning  React Hook useEffect has missing dependencies: 'rotation', 'sound', and 'starTime'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+   73:8   warning  React Hook useEffect has a missing dependency: 'pulse'. Either include it or remove the dependency array                                react-hooks/exhaustive-deps
+  107:11  warning  'backgroundColors' is assigned a value but never used                                                                                   @typescript-eslint/no-unused-vars
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\tools\pixel.tsx
+   5:49  warning  'BorderRadius' is defined but never used                                                                       @typescript-eslint/no-unused-vars
+   8:37  warning  'Easing' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+   8:45  warning  'withTiming' is defined but never used                                                                         @typescript-eslint/no-unused-vars
+   8:57  warning  'useSharedValue' is defined but never used                                                                     @typescript-eslint/no-unused-vars
+   8:73  warning  'useAnimatedStyle' is defined but never used                                                                   @typescript-eslint/no-unused-vars
+  85:9   warning  React Hook useMemo has a missing dependency: 'processTouch'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\tools\shredder.tsx
+  413:18  warning  'e' is defined but never used                                    @typescript-eslint/no-unused-vars
+  501:35  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\app\tools\surf.tsx
+    3:10  warning  'SafeAreaView' is defined but never used                                                                                                                                                                                                                                                                    @typescript-eslint/no-unused-vars
+   19:18  warning  'Rect' is defined but never used                                                                                                                                                                                                                                                                            @typescript-eslint/no-unused-vars
+   19:45  warning  'SweepGradient' is defined but never used                                                                                                                                                                                                                                                                   @typescript-eslint/no-unused-vars
+   19:60  warning  'vec' is defined but never used                                                                                                                                                                                                                                                                             @typescript-eslint/no-unused-vars
+   19:85  warning  'LinearGradient' is defined but never used                                                                                                                                                                                                                                                                  @typescript-eslint/no-unused-vars
+   22:7   warning  'FF' is assigned a value but never used                                                                                                                                                                                                                                                                     @typescript-eslint/no-unused-vars
+   31:7   warning  'SPAWN_RATE_MS' is assigned a value but never used                                                                                                                                                                                                                                                          @typescript-eslint/no-unused-vars
+   61:72  warning  A `require()` style import is forbidden                                                                                                                                                                                                                                                                     @typescript-eslint/no-require-imports
+   62:76  warning  A `require()` style import is forbidden                                                                                                                                                                                                                                                                     @typescript-eslint/no-require-imports
+   73:8   warning  React Hook useEffect has missing dependencies: 'sounds.explosion' and 'sounds.laser'. Either include them or remove the dependency array                                                                                                                                                                    react-hooks/exhaustive-deps
+  253:8   warning  React Hook useCallback has missing dependencies: 'handleGameOver', 'shipX.value', 'shipY.value', and 'sounds.explosion'. Either include them or remove the dependency array. You can also replace multiple useState variables with useReducer if 'setLasers' needs the current value of 'sounds.explosion'  react-hooks/exhaustive-deps
+  275:8   warning  React Hook useEffect has missing dependencies: 'shipX.value', 'shipY.value', and 'sounds.laser'. Either include them or remove the dependency array                                                                                                                                                         react-hooks/exhaustive-deps
+  317:11  warning  'sShipX' is assigned a value but never used                                                                                                                                                                                                                                                                 @typescript-eslint/no-unused-vars
+  318:11  warning  'sShipY' is assigned a value but never used                                                                                                                                                                                                                                                                 @typescript-eslint/no-unused-vars
+  324:8   warning  React Hook useEffect has a missing dependency: 'exhaustPhase'. Either include it or remove the dependency array                                                                                                                                                                                             react-hooks/exhaustive-deps
+  325:11  warning  'sExhaustOpacity' is assigned a value but never used                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  326:11  warning  'sExhaustHeight' is assigned a value but never used                                                                                                                                                                                                                                                         @typescript-eslint/no-unused-vars
+  336:8   warning  React Hook useEffect has missing dependencies: 'bgY1' and 'bgY2'. Either include them or remove the dependency array                                                                                                                                                                                        react-hooks/exhaustive-deps
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\components\ReportModal.tsx
+  11:27  warning  'BorderRadius' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\components\ui\AppLockOverlay.tsx
+  63:8  warning  React Hook useEffect has a missing dependency: 'isLocked'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\jrub2\.gemini\antigravity\scratch\birak-ios\components\ui\StrategyModal.tsx
+  4:63  warning  'FontWeight' is defined but never used  @typescript-eslint/no-unused-vars
+
+Γ£û 77 problems (11 errors, 66 warnings)
+

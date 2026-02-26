@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, Modal, Pressable, TextInput, KeyboardAvoidingView, Platform } from 'react-native';
 import { BlurView } from 'expo-blur';
-import { Colors, Spacing, BorderRadius, FontSize, FontFamily } from '../../constants/Theme';
+import { Colors, Spacing, BorderRadius, FontSize, FontFamily } from '@/constants/Theme';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import * as Haptics from 'expo-haptics';
 import Animated, { FadeIn, FadeInDown, SlideOutDown, FadeOut } from 'react-native-reanimated';
-import { useHabitStore, CopingStrategy } from '../../stores/useHabitStore';
+import { useHabitStore, CopingStrategy } from '@/stores/useHabitStore';
 
 interface AddStrategyModalProps {
     visible: boolean;

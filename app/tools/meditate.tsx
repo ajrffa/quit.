@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, Pressable, Dimensions } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
-import { Colors, Spacing, FontSize, FontFamily } from '../../constants/Theme';
+import { Colors, Spacing, FontSize, FontFamily } from '@/constants/Theme';
 import Animated, { FadeIn, useSharedValue, withRepeat, withTiming, Easing, useDerivedValue } from 'react-native-reanimated';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import * as Haptics from 'expo-haptics';

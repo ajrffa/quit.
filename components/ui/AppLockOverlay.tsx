@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, AppState, AppStateStatus } from 'react-native';
 import * as LocalAuthentication from 'expo-local-authentication';
-import { Colors, FontFamily, FontSize } from '../../constants/Theme';
-import { useHabitStore } from '../../stores/useHabitStore';
+import { Colors, FontFamily, FontSize } from '@/constants/Theme';
+import { useHabitStore } from '@/stores/useHabitStore';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 
 export function AppLockOverlay() {

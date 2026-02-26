@@ -2,13 +2,13 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { StyleSheet, Text, View, Pressable, FlatList, RefreshControl } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
-import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '../../constants/Theme';
-import { useAuthStore } from '../../stores/useAuthStore';
-import { useHabitStore } from '../../stores/useHabitStore';
+import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '@/constants/Theme';
+import { useAuthStore } from '@/stores/useAuthStore';
+import { useHabitStore } from '@/stores/useHabitStore';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import Animated, { FadeInDown, FadeIn } from 'react-native-reanimated';
-import { fetchConversations, Conversation } from '../../services/dmService';
-import { BADGE_CONFIG, getBadgeForStreak, BadgeLevel } from '../../types/community';
+import { fetchConversations, Conversation } from '@/services/dmService';
+import { BADGE_CONFIG, getBadgeForStreak, BadgeLevel } from '@/types/community';
 
 const FF = FontFamily.sans;
 

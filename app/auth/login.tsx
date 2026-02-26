@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, TextInput, Pressable, KeyboardAvoidingView, Platform, ActivityIndicator, ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
-import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '../../constants/Theme';
-import { useAuthStore } from '../../stores/useAuthStore';
+import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '@/constants/Theme';
+import { useAuthStore } from '@/stores/useAuthStore';
 import * as Haptics from 'expo-haptics';
 import Animated, { FadeInDown, FadeIn, FadeInUp } from 'react-native-reanimated';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
-import { signInWithApple, signInWithGoogle, isAppleSignInAvailable } from '../../services/socialAuth';
+import { signInWithApple, signInWithGoogle, isAppleSignInAvailable } from '@/services/socialAuth';
 
 const FF = FontFamily.sans;
 const IS_DEV = __DEV__;

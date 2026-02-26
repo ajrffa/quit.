@@ -5,14 +5,14 @@ import {
 } from 'react-native';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useRouter, useLocalSearchParams } from 'expo-router';
-import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '../../constants/Theme';
-import { useAuthStore } from '../../stores/useAuthStore';
+import { Colors, Spacing, BorderRadius, FontSize, FontWeight, FontFamily } from '@/constants/Theme';
+import { useAuthStore } from '@/stores/useAuthStore';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import * as Haptics from 'expo-haptics';
 import Animated, { FadeIn, SlideInUp } from 'react-native-reanimated';
 import { BlurView } from 'expo-blur';
-import { fetchMessages, sendMessage, markAsRead, Message } from '../../services/dmService';
-import ReportModal from '../../components/ReportModal';
+import { fetchMessages, sendMessage, markAsRead, Message } from '@/services/dmService';
+import ReportModal from '@/components/ReportModal';
 
 const FF = FontFamily.sans;
 

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { StyleSheet, Text, View, Pressable, Dimensions } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
-import { Colors, Spacing, FontSize, FontFamily } from '../../constants/Theme';
+import { Colors, Spacing, FontSize, FontFamily } from '@/constants/Theme';
 import * as Haptics from 'expo-haptics';
 import Animated, {
     useSharedValue,

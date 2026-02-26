@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, Pressable, KeyboardAvoidingView, Platform, ScrollView, Alert, Dimensions } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Colors, Spacing, BorderRadius, FontSize, FontFamily } from '../../constants/Theme';
-import { useHabitStore, JournalEntry } from '../../stores/useHabitStore';
+import { Colors, Spacing, BorderRadius, FontSize, FontFamily } from '@/constants/Theme';
+import { useHabitStore, JournalEntry } from '@/stores/useHabitStore';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import * as Haptics from 'expo-haptics';
 import { useRouter } from 'expo-router';
